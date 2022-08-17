@@ -8,7 +8,7 @@ console.log(BMI(70, 1.7));
 function Status(bmi){
    if(bmi < 18.5) {
    return "لديك نقص في الوزن";
-   } else if (bmi >=18.5 && BMI <25){
+   } else if (bmi >=18.5 && bmi <25){
     return "وزنك صحي";
    } else{
     return "لديك زيادة في الوزن";
